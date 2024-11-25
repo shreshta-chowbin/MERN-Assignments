@@ -1,0 +1,408 @@
+/* upload only png jpg */
+/* email dulpicate chechk */
+/* protective routes */
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lilita+One&family=Nerko+One&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+  font-family: "orangee";
+  src: url("./orange\ juice\ 2.0.ttf");
+}
+
+.topNavigationNav{
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  height: 40px;
+  font-size: 1rem;
+}
+
+.pageNotFoundDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-size: 3rem;
+  word-spacing: 1.2rem;
+  font-family: "orangee";
+  background: url("./images/bg1.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.alignCenter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.spanAlerts span{
+  color: red;
+}
+
+.headingDiv h2{
+  text-align: center;
+  margin-bottom: 40px;
+  letter-spacing: 0.3rem;
+  word-spacing: 0.6rem;
+}
+
+/* .displayNone{
+  display: none;
+} */
+
+/* .hidden{
+  visibility:hidden;
+  } */
+  
+  .buttonsDiv button{
+    border: 0px;
+    margin: 20px;
+    width: 80px;
+    height: 30px;
+    font-size: 1rem;
+    color: white;
+    background-color: darkcyan;
+  }
+  
+  .buttonsDiv button:hover{
+    background-color: rgb(19, 90, 90);
+  }
+  
+  .buttonsDiv button:active{
+    background-color: darkcyan;
+  }
+  
+  
+  form
+  {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  form div{
+    margin: 15px;
+  }
+  
+  form select{
+    width: 187px;
+    height: 20px;
+  }
+  
+  .formInputDiv{
+    width: 100%;
+  }
+  
+  .formInputDiv input{
+    width: 180px;
+    height: 15px;
+  }
+  
+  label{
+    display: inline-block;
+    width: 140px;
+    margin-right: 20px;
+  }
+  
+  
+  /* ----------------------------------------------------------Login CSS-------------------------------------------------------------- */
+
+  .loginHeadingDiv h2{
+    font-family: "orangee";
+    font-size: 2rem;
+    margin-bottom: 25px;
+    letter-spacing: 10px;
+    text-align: center;
+  }
+  
+  .loginDiv{
+    background: url("./images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .loginDiv span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+  }
+  
+  .passwordInputImgDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 25px;
+  }
+  
+  .passwordInputImgDiv img{
+    position: absolute;
+    right: 0px;
+    margin: 5px;
+    width: 20px;
+  }
+
+  .loginButton button{
+    background-color: black;
+  }
+
+  .loginButton button:hover{
+    background-color: rgb(154, 191, 203);
+  }
+
+  .loginButton button:active{
+    background-color: black;
+  }
+
+
+  /* ----------------------------------------------------------Dashboard CSS-------------------------------------------------------------- */
+
+  .dashboardDiv{
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .dashboardSpanDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dashboardSpanDiv span{
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    padding: 10px;
+    border: 1px outset black;
+    background-color: rgb(186, 234, 186);
+  }
+
+  .dashboardDiv h1{
+    letter-spacing: 5px;
+  }
+
+  /* ----------------------------------------------------------Employee List CSS-------------------------------------------------------------- */
+  
+  .employeeListDiv{
+    width: 100vw;
+    height: 100vh;
+    background: url("./images/bg2.webp"),url("./images/employee.png");
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover contain;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 40px;
+    margin-top: 60px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 20px 10px 10px black;
+    width: 90%;
+  }
+
+  caption{
+    background-color: rgba(5, 5, 5, 0.51);
+    color: white;
+    font-size: 1.2rem;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+  }
+
+  .captionInputDiv{
+    margin: 10px;
+  }
+
+  .captionInputDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .captionInputDiv input{
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+  }
+
+  .captionDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .captionDiv button{
+    border: none;
+    cursor: pointer;
+    word-spacing: 5px;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 20px;
+    text-shadow: 20px 5px 20px black;
+    background-color: white;
+  }
+
+  .captionDiv button:hover{
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+  }
+
+  .captionDiv button:active{
+    background-color: white;
+    color: black;
+  }
+
+  th,td{
+    padding: 10px;
+    border: 2px solid black;
+  }
+
+  /* tr:nth-child(even){
+    background-color: lightcyan;
+  } */
+
+  .editDelete{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .editDelete button{
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 50px;
+    cursor: pointer;
+    height: 20px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .editDelete button:hover{
+    background-color: darkred;
+  }
+
+  .editDelete button:active{
+    background-color: red;
+  }
+
+  tr:hover{
+    background-color: rgb(204, 204, 204);
+  }
+
+  .employeeListTable img{
+    width: 60px;
+    height: 60px;
+  }
+
+  /* ----------------------------------------------------------Create Employee CSS-------------------------------------------------------------- */
+  
+  .createEmployeeDiv form{
+    background: url("./images/bg2.webp");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    border: 2px solid black;
+    box-shadow: 5px 5px 50px black;
+    width: 380px;
+  }
+
+  .genderDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .genderRadioDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .genderRadioDiv label{
+    width: fit-content;
+    margin-right: 0px;
+  }
+  
+  .genderRadioDiv div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imgDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imgInputDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imgInputDiv label{
+    display: flex;
+    justify-content: center;
+    font-weight:bolder;
+    
+  }
+
+  .imgInputDiv input{
+    display: none;
+  }
+  
+  .imgInputDiv img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+  
+  .formFlexDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .formFlexDiv div{
+    margin: 0px;
+  }
